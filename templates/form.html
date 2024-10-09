@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заполнения</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Помощник исследовательских работ</h1>
+    </header>
+    
+    
+    <main class="text-center">
+        <div class="container-fluid">
+            <section id="intro">
+                <h2>Описание</h2>
+                <p>Создайте документы для ваших исследовательских работ, используя наш шаблоны.</p>
+                <div class="col-auto">
+                    <a href="#documentForm"><button class="btn btn-primary" type="submit" id="startButton">Начать</button></a>
+                </div>
+                
+            </section>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="accordion col-sm-4 " id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Поменять шрифт и размер
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <div class="accordion-body ">
+                        <p class="text-center">Нужно преобразовать написанный текст под нужный шрифт — <strong>“Times New Roman”</strong> 
+                        <br>и нужный кегль — <strong>14 пт</strong> (размер текста). 
+                        <br>Найти их можно на панели инструментов во вкладке <strong>“Главная”</strong>.
+                        <br>
+                        <img src="../img/time.png" width="100%">
+                        <br><br> Если выуже набрали текст, то выделите его перед преобразованием! 
+                        <br></p>
+                        <img src="../img/1men.gif" alt="я джифка" width="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Выровнить текст
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <div class="accordion-body ">
+                        <p class="text-center">Нужно выделить весь текст и выровнить его <strong>“по ширине”.</strong> 
+                        <br>Для этого воспользуемся инструментами выравнивания. 
+                        <br>Найти их можно на панели инструментов во вкладке <strong>“Главная”</strong>.
+                        <br><br> 
+                        <img src="../img/v.png" alt="я джифка" width="100%"> 
+                        <ul ><strong>Инструменты:</strong> 
+                            <li class="text-start">выравнивание по левому краю</li>
+                            <li class="text-start">выравнивание по центру</li>
+                            <li class="text-start">выравнивание по правому краю</li>
+                            <li class="text-start">выравнивание по ширине</li>
+                        </ul>
+                        <br>Применим необходимый, чтобы весь наш текст растянулся по всей ширине страницы.</p>
+                        <img src="../img/v.gif" width="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Настройка абзаца
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text-center">Нужно добавить <strong>отступ</strong> для первой строки <strong>1,25</strong>. 
+                                <br>Так же задать межстрочный интервал <strong>1,5 (полуторный)</strong>.
+                                <img src="../img/ab.png" alt="я джифка" width="100%">
+                                <br><br>Для этого <strong>выделяем</strong> весь текст и жмем по нему <strong>ПКМ (Правая кнопка мыши)</strong> открывается меню.
+                                <br>В нём открываем вкладку <strong>“Абзац”</strong>. 
+                                <img src="../img/ab.gif" width="100%">
+                                <br><br> Если выуже набрали текст, то выделите его перед преобразованием! 
+                                <br></p>
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Нумерация страниц
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="text-center">
+                            <ol ><strong>Инструменты:</strong> 
+                                <li class="text-start">Выбираем <strong>"Вставка"</strong></li>
+                                <li class="text-start">Выбираем <strong>"Номер страницы"</strong></li>
+                                <li class="text-start">Выбираем <strong>"Внизу страницы"</strong></li>
+                                <li class="text-start">Выбираем <strong>"Простой номер 1"</strong></li>
+                            </ol>
+                            <br>
+                            <img src="../img/num.png" width="100%">
+                        </p>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+            <section id="generate" class="col-sm-8">
+                <div class="container con-form">
+                    <h2>Создание документа</h2>
+                    <form method="post" id="documentForm">
+                        <div class="form-floating mb-3">
+                            <input type="text" name="topic" class="form-control" id="floatingInput" placeholder="Тема">
+                            <label for="floatingInput">Тема</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" name="fio" class="form-control" id="floatingInput" placeholder="ФИО">
+                            <label for="floatingInput">ФИО</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="number" name="class" class="form-control" id="floatingInput" placeholder="Класс">
+                            <label for="floatingInput">Класс</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" name="char" class="form-control" id="floatingInput" placeholder="Буква">
+                            <label for="floatingInput">Буква</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" name="UCH" class="form-control" id="floatingInput" placeholder="ФИО учителя">
+                            <label for="floatingInput">ФИО учителя</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" name="post" class="form-control" id="floatingInput" placeholder="Должность">
+                            <label for="floatingInput">Должность</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" name="year" class="form-control" id="floatingInput" placeholder="Год">
+                            <label for="floatingInput">Год</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea name="intro" class="form-control" id="floatingInput" style="height: 100px" placeholder="Введение"></textarea>
+                            <label for="floatingInput">Введение</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea name="relevance" class="form-control" id="floatingInput" style="height: 100px" placeholder="Актуальность"></textarea>
+                            <label for="floatingInput">Актуальность</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea name="purposes" class="form-control" id="floatingInput" style="height: 100px" placeholder="Цели"></textarea>
+                            <label for="floatingInput">Цели</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea name="tasks" class="form-control" id="floatingInput" style="height: 100px" placeholder="Задачи"></textarea>
+                            <label for="floatingInput">Задачи</label>
+                        </div>
+                        <div class="col-auto">
+                          <button class="btn btn-primary" type="submit">Сгенерировать документ</button>  
+                        </div>
+                        
+                    </form>
+                </div>
+            </section>
+    </div>
+    </main>
+
+    <footer>
+        <p>© 2023 ResearchDocHelper. Все права защищены.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
